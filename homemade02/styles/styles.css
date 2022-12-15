@@ -1,0 +1,21 @@
+body {
+    margin: auto;
+    width: 794px;
+    height: 1123px;
+    font-family: 'Kanit', sans-serif;
+    
+}
+
+img {
+    width: 350px;
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+p {
+    margin: 0;
+}
+li {
+    margin-left: 24px;
+}
