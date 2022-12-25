@@ -210,7 +210,7 @@ margin-bottom: 197px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 16px;
+    /* padding: 16px; */
     gap: 10px;
     width: 560px;
     height: 72px;
@@ -224,7 +224,7 @@ margin-bottom: 197px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 12px 16px;
+    /* padding: 12px 16px; */
     gap: 10px;
     width: 560px;
     height: 64px;
@@ -233,4 +233,84 @@ margin-bottom: 197px;
     border-radius: 10px;
 }
 
+.cheese_img_frame {
+    width: 36px;
+    height: 36px;
+    background-color: rgb(13, 12, 34, 0.15);
+    border-radius: 10px;
+    margin: 18px 10px 18px 16px;
+}
 
+.cheese_img {
+    width: 20px;
+    height: 20px;
+    margin: 8px;
+}
+
+.cookies_policies_read {
+    width: 347px;
+    height: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0D0C22;
+}
+
+.read_cook_pol {
+    color: #EA4C89;;
+}
+
+.cookies_polic_decline_btn {
+    padding: 4px 10px;
+    gap: 10px;
+    width: 63px;
+    height: 28px;
+    background-color: rgb(13, 12, 34, 0.15);
+    border-radius: 8px;
+}
+
+.cookies_polic_allow_btn {
+    padding: 4px 10px;
+    gap: 10px;
+    width: 52px;
+    height: 28px;
+    color: white;
+    background: #EA4C89;
+    border-radius: 8px;
+    margin-right: 16px;
+    margin-left: 10px;
+}
+
+.cook_police_ok_btn {
+    align-items: flex-start;
+    padding: 4px 10px;
+    gap: 10px;
+    width: 49px;
+    height: 28px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #26262B;
+    margin-left: 16px;
+    margin-right: 10px;
+}
+.agree_cook_police {
+    width: 469px;
+    height: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.our_cook_police {
+    color: #E6842E;
+}
