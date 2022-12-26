@@ -1,0 +1,142 @@
+body {
+    margin: auto;
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Lato', sans-serif;
+}
+.main {
+    width: 1440px;
+    height: 1480px;
+    margin: auto;
+}
+.img_header {
+    width: 100%;
+    height: auto;
+    margin-bottom: 35px;
+}
+.contacts_container {
+    width: 100%;
+    height: auto;
+    margin: 82px 114px 258px 176px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.contact_information_title {
+    width: 445px;
+    height: 107px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+}
+
+.contact_information_text {
+    width: 434px;
+    height: 64px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    color: #000000;
+}
+.contact_form_container {
+    width: 540px;
+    height: 305px;
+    /* box-sizing: border-box; */
+    margin: 82px 165px 113px 114px;
+  
+}
+
+.input_first_name {
+    box-sizing: border-box;
+    border: solid 1px;
+    border-color: #333333;
+    border-radius: 6px;
+    width: 255px;
+    height: 60px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(19, 39, 67, 0.5);
+    padding: 21px 147px 20px 31px;
+}
+.input_last_name {
+    box-sizing: border-box;
+    border: solid 1px;
+    border-color: #333333;
+    border-radius: 6px;
+    width: 255px;
+    height: 60px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(19, 39, 67, 0.5);
+    padding: 21px 149px 20px 31px;
+    margin-left: 26px; /*тут зменшив margin на 4 пікселя так як не вміщається хотів би знати чому */
+}
+
+.input_phone_number {
+    box-sizing: border-box;
+    border: solid 1px;
+    border-color: #333333;
+    border-radius: 6px;
+    width: 540px;
+    height: 60px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(19, 39, 67, 0.5);
+    padding: 21px 149px 20px 31px;
+    margin-top: 24px;
+}
+
+.input_select_service {
+    text-decoration: none;
+    box-sizing: border-box;
+    border: solid 1px;
+    border-color: #333333;
+    border-radius: 6px;
+    width: 540px;
+    height: 60px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(19, 39, 67, 0.5);
+    padding: 21px 149px 20px 31px;
+    margin-top: 24px;
+    margin-right: 23px;
+}
+
+.send_contact_btn {
+    box-sizing: border-box;
+    width: 160px;
+    height: 50px;
+    background: #ED4C5C;
+    border: 1.5px solid #ED4C5C;
+    border-radius: 6px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 27px;
+}
+
+.footer_container {
+    width: 100%;
+    height: auto;
+}
