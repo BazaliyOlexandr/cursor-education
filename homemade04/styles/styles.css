@@ -30,6 +30,7 @@ body {
     font-size: 36px;
     line-height: 43px;
     color: #000000;
+    margin-top: 82px;
 }
 
 .contact_information_text {
@@ -134,6 +135,10 @@ body {
     text-transform: uppercase;
     color: #FFFFFF;
     margin-top: 27px;
+}
+.send_contact_btn:active {
+    transform: scale(1.05);
+    transition: 0.05s;
 }
 
 .footer_container {
