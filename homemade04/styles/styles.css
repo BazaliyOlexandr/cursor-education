@@ -2,11 +2,13 @@ body {
     margin: auto;
     font-family: 'Balsamiq Sans', cursive;
     font-family: 'Lato', sans-serif;
+    background-color: #adadad;
 }
 .main {
     width: 1440px;
     height: 1480px;
     margin: auto;
+    background-color: #FFFFFF;
 }
 .img_header {
     width: 100%;
@@ -14,9 +16,9 @@ body {
     margin-bottom: 35px;
 }
 .contacts_container {
-    width: 100%;
-    height: auto;
-    margin: 82px 114px 258px 176px;
+    width: 1440px;
+    height: 500px;
+    padding: 82px 114px 258px 176px;
     box-sizing: border-box;
     display: flex;
 }
@@ -142,6 +144,44 @@ body {
 }
 
 .footer_container {
-    width: 100%;
-    height: auto;
+    width: 1440px;
+    height: 435px;
+    margin-top: 10px;
 }
+
+.addres_container {
+    width: 259px;
+    height: 264px;
+    padding: 85px 30px 86px 161px;
+}
+
+.addres_container_title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+    margin-bottom: 33px;
+}
+.addres_container_info {
+    width: 254px;
+    height: 54px;
+    font-family: 'Lato';
+    font-style: bold;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #101010;
+    margin-bottom: 141px;
+}
+
+.addres_container_info {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #101010;
+}
+
