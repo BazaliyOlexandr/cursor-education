@@ -70,6 +70,7 @@ body {
     padding: 21px 147px 20px 31px;
 }
 .input_last_name {
+    position: absolute;
     box-sizing: border-box;
     border: solid 1px;
     border-color: #333333;
@@ -137,6 +138,7 @@ body {
     text-transform: uppercase;
     color: #FFFFFF;
     margin-top: 27px;
+    cursor: pointer;
 }
 .send_contact_btn:active {
     transform: scale(1.05);
@@ -147,6 +149,7 @@ body {
     width: 1440px;
     height: 435px;
     margin-top: 10px;
+    display: flex;
 }
 
 .addres_container {
@@ -184,4 +187,93 @@ body {
     line-height: 14px;
     color: #101010;
 }
+/* .sevices_container{
+    width: 254px;
+    height: 209px;
+} */
 
+.sevices_container_title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+    margin-top: 85px;
+    margin-bottom: 28px;
+    padding-right: 217px;
+}
+
+.services_ulr_container {
+       font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 160%;
+    color: #000000;
+}
+
+.get_in_touch_container_title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+    margin-top: 85px;
+    margin-bottom: 33px;
+    padding-right: 187px;
+}
+
+.contact_link {
+    margin-bottom: 11px;
+}
+
+.contact-link_mail {
+    text-decoration: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #101010;
+    margin-bottom: 25px;
+}
+.contact-link_tel {
+    text-decoration: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #101010;
+    margin-top: 11px;
+}
+
+.img_ulr_soc_net {
+    height: 12px;
+    width: auto;
+    margin-top: 22px;
+}
+
+.img_ulr_soc_net_2 {
+    height: 12px;
+    width: auto;
+    margin-top: 22px;
+    margin-left: 16px;
+}
+
+.we_support_conteiner_title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+    margin-top: 85px;
+}
+
+.we_support_conteiner_img {
+    height: 31px;
+    margin-top: 33px;
+}
