@@ -4,6 +4,10 @@ body {
     font-family: 'Balsamiq Sans', cursive;
     font-family: 'Lato', sans-serif;
 }
+img {
+    height: 16px;
+    vertical-align: text-top;
+}
 
 /* .one_table {
     border: 1px solid rgb(172, 169, 169);
@@ -11,6 +15,12 @@ body {
     width: 840px;
     margin: 50px 0px 50px 100px;
 } */
+.rev_tab_1 {
+    padding-left: 10px;
+}
+.rev_table {
+    padding-left: 30px;
+}
 
 .table_container {
     border: 1px solid rgb(172, 169, 169);
@@ -47,4 +57,8 @@ tr {
 
 .second_d {
     width: 355px;
+}
+
+.search {
+    border-radius: 4px;
 }
