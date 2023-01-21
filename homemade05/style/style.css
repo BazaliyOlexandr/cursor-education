@@ -3,48 +3,16 @@ body {
     background: rgb(78, 76, 76);
     font-family: 'Balsamiq Sans', cursive;
     font-family: 'Lato', sans-serif;
+    margin: auto;
 }
-
-/* .one_table {
-    border: 1px solid rgb(172, 169, 169);
-    border-radius: 4px;
-    width: 840px;
-    margin: 50px 0px 50px 100px;
-} */
-
-.table_container {
-    border: 1px solid rgb(172, 169, 169);
-    border-radius: 4px;
-    width: 840px;
-    margin: 50px 0px 50px 100px;
+td {
+    border-collapse: collapse;
+    border-bottom: 1px solid white;
 }
-
-table {
-        margin: 0;
-        padding: 0;
-        border-collapse: collapse;
-        border-spacing: 0;
-        border-style: hidden;
-        width: 840px;
-}
-tr {
-    border: 1px solid rgb(172, 169, 169);
-    margin-bottom: 40px;
-    height: 40px;
-}
-
-.first_d {
-    width: 30px;
-    font-family: 'Lato';
-    font-style: bold;
-    font-weight: 400;
-    font-size: 14px;
-}
-
-.last_d {
-    width: 40px;
-}
-
-.second_d {
-    width: 355px;
+.first_table {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 200px;
+    width: auto;
+    
 }
