@@ -4,6 +4,7 @@ body {
 main {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     
 }
 a {
@@ -29,7 +30,6 @@ header {
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 .main_content {
     margin-top: 50px;
@@ -54,10 +54,38 @@ nav {
     color: #212353;
     border-radius: 50px;
     box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
-    /* margin-left: 420px; */
-    
+    margin-left: 420px;
+    margin-right: 128px;
+    cursor: pointer;
 }
 .nav_btn_arrow {
     margin-left: 20px;
     align-items: center;
+}
+
+.first_section {
+    position: relative;
+    display: flex;
+    width: 1248px;
+    margin-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.first_section_info {
+    width: 464px;
+}
+
+.first_section_image {
+    position: absolute;
+    height: 468px;
+    left: 30%;
+}
+
+h1 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    align-items: center;
+    color: #212353;
 }
