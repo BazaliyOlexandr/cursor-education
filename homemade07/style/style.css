@@ -72,13 +72,17 @@ nav {
     margin-right: auto;
 }
 .first_section_info {
+    display: flex;
+    flex-direction: column;
     width: 464px;
+    position: relative;
 }
 
 .first_section_image {
     position: absolute;
     height: 468px;
     left: 30%;
+    top: 80px;
 }
 
 h1 {
@@ -88,4 +92,35 @@ h1 {
     font-size: 80px;
     align-items: center;
     color: #212353;
+    width: 645px;
+    margin-bottom: 50px;
+}
+
+.first_section_info_text {
+    width: 380px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+    margin-bottom: 50px;
+}
+
+.learn_more_btn {
+    width: 170px;
+    height: 60px;
+    left: 240px;
+    top: 644px;
+    background: #9C69E2;
+    border-radius: 50px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 160%;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
 }
