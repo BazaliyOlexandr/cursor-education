@@ -193,3 +193,103 @@ h1 {
     line-height: 160%;
     color: #4B5D68;
 }
+
+.fourth_section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 1248px;
+    height: 690px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.fourth_section_content_row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourth_section_content_block_1 {
+    background-image: url('../image/image_s4_el1.svg');
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    width: 520px;
+    height: 355px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+}
+.fourth_section_content_block_2 {
+    background-image: url('../image/image4.svg');
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    width: 520px;
+    height: 355px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+}
+.fourth_section_content_block_3 {
+    background-image: url('../image/image5\ 1.svg');
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    width: 520px;
+    height: 355px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+}
+.fourth_section_content_block_4 {
+    background-image: url('../image/image6\ 1.svg');
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    width: 520px;
+    height: 355px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+}
+
+.fourth_section_content_block_title {
+    display: flex;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #212353;
+    margin-left: 262px;
+      
+}
+
+.fourth_section_content_block_info {
+    width: 220px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #4B5D68;
+    margin-left: 262px;
+}
+
+.fourth_section_content_block_btn {
+    display: flex;
+    margin-left: 262px;
+    justify-self: flex-end;
+}
+
+.lm_btn_arrow {
+    margin-left: 10px;
+    align-items: center;
+}
