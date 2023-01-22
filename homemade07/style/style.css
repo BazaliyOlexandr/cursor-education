@@ -1,10 +1,12 @@
 body {
     font-family: 'Avenir';
+    
 }
 main {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding-bottom: 100px;
     
 }
 a {
@@ -24,19 +26,21 @@ header {
     justify-content: center;
     display: flex;
     width: 100%;
-       
+    margin-top: 50px;
 }
 
 nav {
     display: flex;
     align-items: center;
+    
 }
 .main_content {
-    margin-top: 50px;
+    
 }
 .navigation {
     display: flex;
     gap: 40px;
+    justify-content: space-between;
 }
 
 .nav_button {
@@ -64,9 +68,14 @@ nav {
 }
 
 .first_section {
-    position: relative;
+    background-image: url('../image/image1.svg');
+    background-repeat: no-repeat;
+    background-size: 885px;
+    background-position-x: right;
+    background-position-y: bottom;
     display: flex;
     width: 1248px;
+    height: 564px;
     margin-top: 130px;
     margin-left: auto;
     margin-right: auto;
@@ -75,15 +84,9 @@ nav {
     display: flex;
     flex-direction: column;
     width: 464px;
-    position: relative;
 }
 
-.first_section_image {
-    position: absolute;
-    height: 468px;
-    left: 30%;
-    top: 80px;
-}
+
 
 h1 {
     font-family: 'Helvetica';
@@ -123,4 +126,70 @@ h1 {
     text-align: center;
     color: #FFFFFF;
     cursor: pointer;
+}
+
+.second_section {
+    background: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;
+    width: 1248px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.second_section_img {
+    width: 447px;
+}
+
+.second_section_info {
+    width: 475px;
+    margin-right: 93px;
+}
+
+.second_section_info_title {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #212353;
+    margin-bottom: 40px;
+}
+
+.second_section_info_text {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+}
+
+.third_section {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.third_section_title {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    color: #212353;
+    margin-bottom: 50px;
+}
+
+.third_section_info {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
 }
