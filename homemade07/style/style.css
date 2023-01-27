@@ -314,7 +314,7 @@ h1 {
 
 .first_footer_section {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .first_footer_section_block_one {
@@ -385,4 +385,19 @@ h1 {
     box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
     cursor: pointer;
     margin-left: 30px;
+}
+
+.second_footer_container {
+    display: flex;
+    margin-top: 150px;
+    width: 1117px;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.second_footer_container_one {
+    display: flex;
+    flex-direction: column;
+    width: 335px;
+
 }
