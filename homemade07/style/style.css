@@ -405,4 +405,21 @@ h1 {
     display: flex;
     justify-content: space-between;
     margin-top: 90px;
+    align-items: center;
+}
+
+.second_footer_container_one_title {
+    display: flex;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 160%;
+    color: #212353;
+    align-items: center;
+    margin-bottom: 67px;
+}
+
+.second_footer_container_one_text {
+    
 }
