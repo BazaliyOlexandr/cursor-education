@@ -1,0 +1,117 @@
+body {
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Rochester', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Mulish', sans-serif;
+    margin-top: 30px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+header {
+   margin: 0 auto;
+   /* min-height: 153px; */
+}
+
+.header_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+.header_logo {
+    font-family: 'Rochester';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41px;
+    color: #1B2437;
+    align-items: center;
+    min-width: 109px;
+    margin-left: 165px;
+}
+
+.header_social_net {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+
+.header_icon_size {
+    width: 28px;
+}
+
+.header_icon {
+    gap: 24px;
+    margin-right: 165px;
+}
+
+
+
+.nav_list {
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 37px;
+    color: #000000;
+}
+
+.slider {
+    display: flex;
+    min-height: 569px;
+    background-image: url('/homemade08/img/SLIDER.png');
+}
+
+.slider_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 165px;
+    margin-top: 103px;
+    margin-bottom: 118px;
+}
+
+.slider_info_title{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 67px;
+    color: #FFFFFF;
+}
+
+.slider_info_text {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.slider_info_btn {
+    background: #1B2437;
+    border-radius: 15px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    width: 255px;
+    height: 77px;
+    cursor: pointer;
+}
