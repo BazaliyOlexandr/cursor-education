@@ -72,7 +72,7 @@ header {
     margin-top: 12px;
     display: flex;
     min-height: 569px;
-    background-image: url('/homemade08/img/SLIDER.png');
+    background-image: url('../img/SLIDER.png');
     margin-bottom: 70px;
 }
 
@@ -130,7 +130,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: end;
-    background-image: url('/homemade08/img/women_collection_category_popular.png');
+    background-image: url('../../homemade08/img/women_collection_category_popular.png');
     background-size: cover;
     border-radius: 16px;
     row-gap: 8px;
@@ -211,7 +211,7 @@ header {
 .dress_colection {
     width: 303px;
     height: 225px;
-    background-image: url('/homemade08/img/dresses_category.png');
+    background-image: url('../../homemade08/img/dresses_category.png');
     grid-column-start: 3;
     grid-column-end: 4;
 }
@@ -240,7 +240,7 @@ header {
 .denim_jackets {
     grid-column-start: 2;
     grid-column-end: 4;
-    background-image: url('/homemade08/img/denim_jackets_category.png');
+    background-image: url('../../homemade08/img/denim_jackets_category.png');
     background-size: cover;
     border-radius: 16px;
     grid-row-start: 2;
