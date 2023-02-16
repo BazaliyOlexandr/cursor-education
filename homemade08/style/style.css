@@ -7,6 +7,7 @@ body {
     max-width: 1440px;
     margin: 0 auto;
     margin-bottom: 100px;
+    background: #F6F6F6;
 }
 
 nav {
@@ -255,3 +256,177 @@ header {
     background-color: #adadad;
     border-radius: 16px;
 }
+
+
+.denim_jackets_colection_text {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #1B2437;
+    margin-left: 54px;
+    margin-top: 64px;
+}
+
+.denim_jackets_colection_title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 45px;
+    color: #1B2437;
+    margin-left: 54px;
+}
+
+.you_make_container, .map {
+    margin: 0 auto;
+    max-width: 1110px;
+}
+.you_make_title, .map_container_title  {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 67px;
+    color: #1B2437;
+    margin-top: 70px;
+    margin-bottom: 35px;
+}
+
+.you_make_block {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+}
+.you_make_block_goods {
+    border-radius: 16px;
+    background: white;
+}
+
+.you_make_block_goods_img {
+    width: 100%;
+}
+
+.like_icon {
+    position: absolute;
+    z-index: 2;
+    left: 290px;
+    top: 16px;
+}
+
+.you_make_block_goods_title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    margin-left: 24px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.you_make_block_goods_text {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+    margin-left: 24px;
+}
+
+.you_make_block_goods_form {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 16px;
+    margin-bottom: 18px;
+}
+
+.you_make_block_goods_form_price {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 30px;
+    color: #000000;
+}
+.you_make_block_goods_shop_now_btn {
+    width: 153px;
+    height: 58px;
+    background: #EDA3B5;
+    border-radius: 15px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.map_container {
+    max-width: 1110px;
+    background: #ffffff;
+    border-radius: 16px;
+    height: 658px;
+    display: flex;
+    flex-direction: column;
+}
+
+.map_block {
+    width: 1086px;
+    height: 511px;
+    background: rgb(140, 177, 140);
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+.map_container_contacts {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 24px
+}
+
+.map_container_contacts_email, .map_container_contacts_adress, .map_container_contacts_tel {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px; 
+    color: #000000;
+}
+
+.img_icon {
+    width: 40px;
+    margin: 0 auto;
+
+}
+
+.map_container_contacts_email_text {
+    text-decoration: none;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    margin-top: 16px;
+}
+
+footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    }
