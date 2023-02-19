@@ -1,0 +1,128 @@
+body {
+    background: white;
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+}
+button {
+    padding: 0 0 0 0;
+    border-radius: 16px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../img/Frame.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.header_text_info {
+    max-width: 454px;
+    margin-left: 160px;
+}
+
+.header_first_title {
+    font-family: 'PT Sans';
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    color: #5282F0;
+    margin-top: 61px;
+    margin-bottom: 133px;
+}
+
+.header_main_title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.03em;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.header_text {
+    margin-bottom: 50px;
+}
+.btn_mobile_store {
+    margin-right: 36px;
+    cursor: pointer;
+    margin-bottom: 164px;
+}
+
+.two_section {
+    display: flex;
+    background-image: url(../img/SAMPLE04.png);
+    justify-content: space-between;
+    min-height: 592px;
+}
+
+.match_info_cover {
+    margin-top: 107px;
+    margin-left: 163px;
+    background: white;
+    width: 360px;
+    height: 219px;
+    position: relative;
+}
+
+.data_match {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.7833px;
+    line-height: 22px;
+    color: #4F4F4F;
+    margin-top: 30px;
+    margin-bottom: 13px;
+    margin-left: 16px;
+}
+
+.match_team {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 13px;
+    margin-left: 16px;
+}
+
+.match_type {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+    margin-left: 16px;
+    margin-bottom: 30px;
+}
+
+.arsenal_icon {
+    position: absolute;
+    top: 70px;
+    left: 190px;
+}
+
+.chelsea_icon {
+    position: absolute;
+    top: 70px;
+    left: 250px;
+}
+
+.video {
+    position: absolute;
+    left: 310px;
+    top: 190px;
+}
